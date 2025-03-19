@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj": {}
+    "D:\\ICBT\\Semester\\Semester IV - CSE\\CSE 5015\\APP\\API\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj": {}
   },
   "projects": {
-    "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj": {
+    "D:\\ICBT\\Semester\\Semester IV - CSE\\CSE 5015\\APP\\API\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj",
+        "projectUniqueName": "D:\\ICBT\\Semester\\Semester IV - CSE\\CSE 5015\\APP\\API\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj",
         "projectName": "Backend_HotelService",
-        "projectPath": "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj",
-        "packagesPath": "C:\\Users\\kavin\\.nuget\\packages\\",
-        "outputPath": "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\Backend_HotelService\\obj\\",
+        "projectPath": "D:\\ICBT\\Semester\\Semester IV - CSE\\CSE 5015\\APP\\API\\Backend_HotelService\\Backend_HotelService\\Backend_HotelService.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\ICBT\\Semester\\Semester IV - CSE\\CSE 5015\\APP\\API\\Backend_HotelService\\Backend_HotelService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kavin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,13 +38,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -89,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.114/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
