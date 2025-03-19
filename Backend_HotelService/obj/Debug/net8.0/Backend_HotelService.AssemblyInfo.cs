@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Backend_HotelService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+907f460d4464093318efc2c36efacaec76a19286")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a941012a9d561c2ccb2953b3035bde62748de14")]
 [assembly: System.Reflection.AssemblyProductAttribute("Backend_HotelService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Backend_HotelService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
