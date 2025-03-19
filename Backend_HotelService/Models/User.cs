@@ -1,13 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_HotelService.Models
 {
-    // Update your User.cs model
     public class User
     {
         public int UserId { get; set; }
-        public string Username { get; set; } = string.Empty; // Add default values
-        public string? Email { get; set; } // Make nullable
+        public string Username { get; set; } = string.Empty;
+        public string? Email { get; set; }
         public string? PasswordHash { get; set; }
         public string? Salt { get; set; }
         public string? FirstName { get; set; }
@@ -17,6 +17,8 @@ namespace Backend_HotelService.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? LastLoginAt { get; set; }
         public string? ProfilePictureUrl { get; set; }
+
+        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
     }
     public class LoginRequest
     {

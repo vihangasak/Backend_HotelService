@@ -4,6 +4,7 @@ using Backend_HotelService.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend_HotelService.Migrations
 {
     [DbContext(typeof(HotelServiceDbContext))]
-    partial class HotelServiceDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250319160050_UserAndRolePermissionAdd")]
+    partial class UserAndRolePermissionAdd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -70,9 +73,6 @@ namespace Backend_HotelService.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("PermissionId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("RolePermissionId")
                         .HasColumnType("int");
 
                     b.HasKey("RoleId", "PermissionId");
@@ -176,9 +176,6 @@ namespace Backend_HotelService.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserRoleId")
                         .HasColumnType("int");
 
                     b.HasKey("UserId", "RoleId");
