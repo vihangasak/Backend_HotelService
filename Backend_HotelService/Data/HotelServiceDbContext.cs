@@ -9,6 +9,11 @@ namespace Backend_HotelService.Data
         {
         }
 
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            var ConnectionString = @"Data Source=KAVINDA;Initial Catalog=HotelDB;Persist Security Info=True;User ID=sa;password =pass1234;Connection Timeout=10000;Language =British English;TrustServerCertificate=True;";
+            optionsBuilder.UseSqlServer(ConnectionString);
+        }
         public DbSet<User> Users { get; set; }
     }
 }

@@ -24,14 +24,16 @@
 
 //app.Run();
 
+using Backend_HotelService.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
-builder.Services.AddDbContext<Backend_HotelService.Data.HotelServiceDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+//builder.Services.AddDbContext<Backend_HotelService.Data.HotelServiceDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<HotelServiceDbContext>();
 
 var app = builder.Build();
 

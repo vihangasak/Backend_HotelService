@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Backend_HotelService.Migrations
 {
     [DbContext(typeof(HotelServiceDbContext))]
-    [Migration("20250318162039_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250319033825_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
