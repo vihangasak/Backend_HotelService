@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|d:\\kavinda\\my project\\hotelms\\backend_hotelservice\\backend_hotelservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|solutionrelative:backend_hotelservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Migrations\\20250319075917_AddRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend_HotelService\\Migrations\\20250319075917_AddRoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|c:\\users\\user\\projects\\vih\\backend_hotelservice\\backend_hotelservice\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|solutionrelative:backend_hotelservice\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|c:\\users\\user\\projects\\vih\\backend_hotelservice\\backend_hotelservice\\data\\hotelservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|solutionrelative:backend_hotelservice\\data\\hotelservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|c:\\users\\user\\projects\\vih\\backend_hotelservice\\backend_hotelservice\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAE15FB7-5DC9-4B93-B038-C1C63AA565D5}|Backend_HotelService\\Backend_HotelService.csproj|solutionrelative:backend_hotelservice\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\Backend_HotelService\\Program.cs",
-              "RelativeDocumentMoniker": "Backend_HotelService\\Program.cs",
-              "ToolTip": "D:\\Kavinda\\My Project\\HotelMS\\Backend_HotelService\\Backend_HotelService\\Program.cs",
-              "RelativeToolTip": "Backend_HotelService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Title": "20250319075917_AddRoom.cs",
+              "DocumentMoniker": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Migrations\\20250319075917_AddRoom.cs",
+              "RelativeDocumentMoniker": "Backend_HotelService\\Migrations\\20250319075917_AddRoom.cs",
+              "ToolTip": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Migrations\\20250319075917_AddRoom.cs",
+              "RelativeToolTip": "Backend_HotelService\\Migrations\\20250319075917_AddRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T04:14:34.833Z",
+              "WhenOpened": "2025-03-19T07:59:18.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "Backend_HotelService\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "Backend_HotelService\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:56:54.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HotelServiceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Data\\HotelServiceDbContext.cs",
+              "RelativeDocumentMoniker": "Backend_HotelService\\Data\\HotelServiceDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Data\\HotelServiceDbContext.cs",
+              "RelativeToolTip": "Backend_HotelService\\Data\\HotelServiceDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:55:21.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Backend_HotelService\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\User\\PROJECTS\\VIH\\Backend_HotelService\\Backend_HotelService\\Models\\Room.cs",
+              "RelativeToolTip": "Backend_HotelService\\Models\\Room.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:53:29.371Z",
               "EditorCaption": ""
             }
           ]
