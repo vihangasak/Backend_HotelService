@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Backend_HotelService.Models;
+using System.Net.Sockets;
 
 namespace Backend_HotelService.Data
 {
@@ -21,9 +22,18 @@ namespace Backend_HotelService.Data
         public DbSet<Permission> Permissions { get; set; } = null!;
         public DbSet<UserRole> UserRoles { get; set; } = null!;
         public DbSet<RolePermission> RolePermissions { get; set; } = null!;
+        public DbSet<Department> Departments { get; set; } = null!;
+        public DbSet<TaskAssignment> TaskAssignments { get; set; } = null!;
+        public DbSet<Ticket> Tickets { get; set; } = null!;
+        public DbSet<TicketStatus> TicketStatuses { get; set; } = null!;
+        public DbSet<TicketPriority> TicketPriorities { get; set; } = null!;
+        public DbSet<Staff> Staff { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            // Roles & UserPermission
             modelBuilder.Entity<UserRole>()
                 .HasKey(ur => new { ur.UserId, ur.RoleId });
 
@@ -49,6 +59,38 @@ namespace Backend_HotelService.Data
                 .HasOne(rp => rp.Permission)
                 .WithMany(p => p.RolePermissions)
                 .HasForeignKey(rp => rp.PermissionId);
+
+            // Departments
+            modelBuilder.Entity<Department>()
+                .HasIndex(d => d.DepartmentName)
+                .IsUnique();
+
+            modelBuilder.Entity<Department>()
+                .Property(d => d.IsActive)
+                .HasDefaultValue(true);
+
+            // TaskAssignment
+            modelBuilder.Entity<TaskAssignment>()
+                .Property(ta => ta.IsActive)
+                .HasDefaultValue(true);
+
+            modelBuilder.Entity<TaskAssignment>()
+            .HasOne(ta => ta.AssignedByUser)
+            .WithMany()
+            .HasForeignKey(ta => ta.AssignedByUserId)
+            .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<TaskAssignment>()
+                .HasOne(ta => ta.AssignedToStaff)
+                .WithMany()
+                .HasForeignKey(ta => ta.AssignedToStaffId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<TaskAssignment>()
+                .HasOne(ta => ta.AssignedToDepartment)
+                .WithMany()
+                .HasForeignKey(ta => ta.AssignedToDepartmentId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
